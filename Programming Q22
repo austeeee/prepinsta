@@ -1,0 +1,14 @@
+n = int(input())
+arr = []
+odd_count = 0
+for o in range(n):
+    arr.append(int(input()))
+for num in arr:
+    if num % 2 != 0:
+        odd_count +=1
+
+if odd_count > 0:
+    print(f"Odd Elements: {odd_count}")
+else:
+    print("No odd elements are present")
+    

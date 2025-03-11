@@ -1,0 +1,12 @@
+s = input()
+tc = 0
+ac = 0
+for a in s:
+    if a in ['C', 'U']:
+        if ac > 0:
+            ac -= 1
+        else:
+            tc += 1
+    elif a in ['R', 'L']:
+        ac += 1
+print(tc)

@@ -1,0 +1,6 @@
+n = int(input())
+total = 0.0
+for i in range (n):
+    total += float(input())
+average = total / n
+print(f"The average is: {average:.3f}")
